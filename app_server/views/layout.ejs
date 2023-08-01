@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/public/css/style.css">
+  <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/public/css/bootstrap-theme.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">NodeJs</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login/signup">Sign in</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- EJS içeriğini burada devam ettirin -->
+  <%- body %>
+
+  <script type="text/javascript" src="/public/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+  <script type="text/javascript" src="/public/js/bootstrap.min.js"></script>
+</body>   
+</html>
